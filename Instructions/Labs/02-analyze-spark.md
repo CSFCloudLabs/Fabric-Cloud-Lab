@@ -19,7 +19,7 @@ Before you can work with data in Fabric you need to navigate to your workspace.
 1. From the left menu bar, select **Workspaces** (🗇).
 1. Select the Workspace that is assigned to your user.
  
-    ![Screen picture of a new Fabric workspace.](Images/new-workspace.jpg)
+    ![Screen picture of a new Fabric workspace.](Images/new-workspace.png)
 
 1. Click on New folder and name it Exercise 2. Once created, open it and proceed from there.
 
