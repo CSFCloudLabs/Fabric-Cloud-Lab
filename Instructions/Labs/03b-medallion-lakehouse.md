@@ -10,35 +10,33 @@ In this exercise you will build out a medallion architecture in a Fabric lakehou
 
 This exercise should take approximately **45** minutes to complete
 
-> **Note**: You need a [Microsoft Fabric trial](https://learn.microsoft.com/fabric/get-started/fabric-trial) to complete this exercise.
+## Navigate to your workspace
 
-## Create a workspace
-
-Before working with data in Fabric, create a workspace with the Fabric trial enabled.
+Before working with data in Fabric, you need to navigate to your workspace.
 
 1. Navigate to the [Microsoft Fabric home page](https://app.fabric.microsoft.com/home?experience=fabric) at `https://app.fabric.microsoft.com/home?experience=fabric` in a browser, and sign in with your Fabric credentials.
 1. In the menu bar on the left, select **Workspaces** (the icon looks similar to &#128455;).
-1. Create a new workspace with a name of your choice, selecting a licensing mode that includes Fabric capacity (*Trial*, *Premium*, or *Fabric*).
-1. When your new workspace opens, it should be empty.
+1. Select the Workspace that is assigned to your user.
 1. Navigate to the workspace settings and enable the **Data model editing** preview feature. This will enable you to create relationships between tables in your lakehouse using a Power BI semantic model.
 
     ![Screenshot of the workspace settings page in Fabric.](./Images/workspace-settings.png)
 
     > **Note**: You may need to refresh the browser tab after enabling the preview feature.
+1. Click on New folder and name it Exercise 3b. Once created, open it and proceed from there.
 
 ## Create a lakehouse and upload data to bronze layer
 
-Now that you have a workspace, it's time to create a data lakehouse for the data you're going to analyze.
+Now that you are connected to your workspace, it's time to create a data lakehouse for the data you're going to analyze.
 
-1. In the workspace you just created, create a new **Lakehouse** named **Sales** by clicking the **+ New item** button.
+1. In your workspace, create a new **Lakehouse** named **Sales** by clicking the **+ New item** button.
 
-    After a minute or so, a new empty lakehouse will be created. Next, you'll ingest some data into the data lakehouse for analysis. There are multiple ways to do this, but in this exercise you'll simply download a text file to your local computer (or lab VM if applicable) and then upload it to your lakehouse.
+    After a minute or so, a new empty lakehouse will be created. Next, you'll ingest some data into the data lakehouse for analysis. There are multiple ways to do this, but in this exercise you'll simply download a text file to your local computer and then upload it to your lakehouse.
 
-1. Download the data file for this exercise from `https://github.com/MicrosoftLearning/dp-data/blob/main/orders.zip`. Extract the files and save them with their original names on your local computer (or lab VM if applicable). There should be 3 files containing sales data for 3 years: 2019.csv, 2020.csv, and 2021.csv.
+1. Download the data file [orders.zip](https://github.com/CSFCloudLabs/Fabric-Cloud-Lab/raw/main/Allfiles/Labs/02/orders.zip) for this exercise from `https://github.com/CSFCloudLabs/Fabric-Cloud-Lab/raw/main/Allfiles/Labs/02/orders.zip`. Extract the files and save them with their original names on your local computer (or lab VM if applicable). There should be 3 files containing sales data for 3 years: 2019.csv, 2020.csv, and 2021.csv.
 
 1. Return to the web browser tab containing your lakehouse, and in the **...** menu for the **Files** folder in the **Explorer** pane, select **New subfolder** and create a folder named **bronze**.
 
-1. In the **...** menu for the **bronze** folder, select **Upload** and **Upload files**, and then upload the 3 files (2019.csv, 2020.csv, and 2021.csv) from your local computer (or lab VM if applicable) to the lakehouse. Use the shift key to upload all 3 files at once.
+1. In the **...** menu for the **bronze** folder, select **Upload** and **Upload files**, and then upload the 3 files (2019.csv, 2020.csv, and 2021.csv) from your local computer to the lakehouse. Use the shift key to upload all 3 files at once.
 
 1. After the files have been uploaded, select the **bronze** folder; and verify that the files have been uploaded, as shown here:
 
@@ -599,12 +597,6 @@ Note that you can't use the **default semantic model** that is automatically cre
 
 From here, you or other members of your data team can create reports and dashboards based on the data in your lakehouse. These reports will be connected directly to the gold layer of your lakehouse, so they'll always reflect the latest data.
 
-## Clean up resources
+## Summary
 
 In this exercise, you've learned how to create a medallion architecture in a Microsoft Fabric lakehouse.
-
-If you've finished exploring your lakehouse, you can delete the workspace you created for this exercise.
-
-1. In the bar on the left, select the icon for your workspace to view all of the items it contains.
-2. In the **...** menu on the toolbar, select **Workspace settings**.
-3. In the **General** section, select **Remove this workspace**.
