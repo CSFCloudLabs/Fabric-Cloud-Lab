@@ -10,19 +10,17 @@ Tables in a Microsoft Fabric Lakehouse are based on the open-source Delta Lake f
 
 This exercise should take approximately **45** minutes to complete
 
-> [!NOTE]
-> You need a [Microsoft Fabric](/fabric/get-started/fabric-trial) trial to complete this exercise.
+## Navigate to your workspace
 
-## Create a workspace
-
-First, create a workspace with the *Fabric trial* enabled.
+First, navigate to your workspace.
 
 1. Navigate to the [Microsoft Fabric home page](https://app.fabric.microsoft.com/home?experience=fabric) at `https://app.fabric.microsoft.com/home?experience=fabric` in a browser, and sign in with your Fabric credentials.
 1. In the menu bar on the left, select **Workspaces** (🗇).
-1. Create a **new workspace** with a name of your choice, selecting a licensing mode that includes Fabric capacity (Trial, Premium, or Fabric).
-1. When your new workspace opens, it should be empty.
+1. Select the Workspace that is assigned to your user.
 
-    ![Screen picture of an empty Fabric workspace.](Images/workspace-empty.jpg)
+    ![Screen picture of an empty Fabric workspace.](Images/new-workspace.png)
+
+1. Click on New folder and name it Exercise 3. Once created, open it and proceed from there.
 
 ## Create a lakehouse and upload data
 
