@@ -56,12 +56,12 @@ When you have finished, click anywhere in the notebook outside of the cell to st
 
 ## Create a DataFrame
 
-Now that you have created a workspace, a lakehouse, and a notebook you are ready to work with your data. You will use PySpark, which is the default language for Fabric notebooks, and the version of Python that is optimized for Spark.
+Now that you have a workspace, a lakehouse, and a notebook you are ready to work with your data. You will use PySpark, which is the default language for Fabric notebooks, and the version of Python that is optimized for Spark.
 
 >[!NOTE]
 > Fabric notebooks support multiple programming languages including Scala, R, and Spark SQL.
 
-1. Select your new workspace from the left bar. You will see a list of items contained in the workspace including your lakehouse and notebook.
+1. Select your workspace from the left bar. You will see a list of items contained in the workspace including your lakehouse and notebook.
 2. Select the lakehouse to display the Explorer pane, including the **orders** folder.
 3. From the top menu, select **Open notebook**, **Existing notebook**, and then open the notebook you created earlier. The notebook should now be open next to the Explorer pane. Expand Lakehouses, expand the Files list, and select the orders folder. The CSV files that you uploaded are listed next to the notebook editor, like this:
 
