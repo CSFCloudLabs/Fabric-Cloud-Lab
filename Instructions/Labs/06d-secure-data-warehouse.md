@@ -12,16 +12,16 @@ Microsoft Fabric permissions and granular SQL permissions work together to gover
 
 This lab takes approximately **45** minutes to complete.
 
-## Create a workspace
+## Navigate to your workspace
 
-Before working with data in Fabric, create a workspace with the Fabric trial enabled.
+Before working with data in Fabric, navigate to your workspace.
 
 1. Navigate to the [Microsoft Fabric home page](https://app.fabric.microsoft.com/home?experience=fabric) at `https://app.fabric.microsoft.com/home?experience=fabric` in a browser, and sign in with your Fabric credentials.
 1. In the menu bar on the left, select **Workspaces** (the icon looks similar to &#128455;).
-1. Create a new workspace with a name of your choice, selecting a licensing mode that includes Fabric capacity (*Trial*, *Premium*, or *Fabric*).
-1. When your new workspace opens, it should be empty.
+1. Select the Workspace that is assigned to your user.
 
     ![Screenshot of an empty workspace in Fabric.](./Images/new-empty-workspace.png)
+1. Click on New folder and name it Exercise 6d. Once created, open it and proceed from there.
 
 > **Note**: When you create a workspace, you automatically become a member of the Workspace Admin role. You can add a second user from your environment to the Workspace Viewer role to test functionality configured in these exercises. This can be done by selecting **Manage Access** within the workspace, then **Add people or groups**. This will allow the second user to view the workspace content.
 
@@ -255,10 +255,6 @@ Fabric has a permissions model that allows you to control access to data at the 
    SELECT * FROM dbo.Parts;
      ```
 
-## Clean up resources
+## Summary
 
 In this exercise, you applied dynamic data masking rules to columns in a table, applied row-level security, implemented column-level security and, configured SQL granular permissions using T-SQL.
-
-1. In the left navigation bar, select the icon for your workspace to view all of the items it contains.
-2. In the menu on the top toolbar, select **Workspace settings**.
-3. In the **General** section, select **Remove this workspace**.
