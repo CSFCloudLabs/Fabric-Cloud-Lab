@@ -43,7 +43,7 @@ Now that you have a lakehouse, you need to ingest some data into it. One way to 
 
 2. Select **Import from a Text/CSV file**, and create a new data source with the following settings:
  - **Link to file**: *Selected*
- - **File path or URL**: `https://raw.githubusercontent.com/MicrosoftLearning/dp-data/main/orders.csv`
+ - **File path or URL**: `https://raw.githubusercontent.com/CSFCloudLabs/Fabric-Cloud-Lab/refs/heads/main/Allfiles/Labs/05/orders.csv`
  - **Connection**: Create new connection
  - **data gateway**: (none)
  - **Authentication kind**: Anonymous
@@ -127,11 +127,3 @@ You can include a dataflow as an activity in a pipeline. Pipelines are used to o
 >
 >![Power BI data source connectors](Images/pbid-dataflow-connectors.png)
 
-## Clean up resources
-
-If you've finished exploring dataflows in Microsoft Fabric, you can delete the workspace you created for this exercise.
-
-1. Navigate to Microsoft Fabric in your browser.
-1. In the bar on the left, select the icon for your workspace to view all of the items it contains.
-1. Select **Workspace settings** and in the **General** section, scroll down and select **Remove this workspace**.
-1. Select **Delete** to delete the workspace.
