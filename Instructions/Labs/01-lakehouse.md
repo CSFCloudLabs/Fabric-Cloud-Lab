@@ -45,7 +45,7 @@ Now that you have a workspace, it's time to create a data lakehouse for your dat
 
 ## Upload a file
 
-Fabric provides multiple ways to load data into the lakehouse, including built-in support for pipelines that copy data from external sources and data flows (Gen 2) that you can define using visual tools based on Power Query. However one of the simplest ways to ingest small amounts of data is to upload files or folders from your local computer (or lab VM if applicable).
+Fabric provides multiple ways to load data into the lakehouse, including built-in support for pipelines that copy data from external sources and data flows (Gen 2) that you can define using visual tools based on Power Query. However one of the simplest ways to ingest small amounts of data is to upload files or folders from your local computer.
 
 1. Download the [sales.csv](https://raw.githubusercontent.com/CSFCloudLabs/Fabric-Cloud-Lab/refs/heads/main/Allfiles/Labs/01/sales.csv) file from `https://raw.githubusercontent.com/CSFCloudLabs/Fabric-Cloud-Lab/refs/heads/main/Allfiles/Labs/01/sales.csv`, saving it as **sales.csv** on your local computer.
 
