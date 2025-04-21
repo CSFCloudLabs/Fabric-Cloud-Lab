@@ -580,14 +580,11 @@ While *matplotlib* enables you to create different chart types, it can require s
 >[!NOTE]
 > To learn more about plotting with seaborn, see the [seaborn](https://seaborn.pydata.org/index.html) documentation.
 
-## Clean up resources
+## Summary
 
 In this exercise, you’ve learned how to use Spark to work with data in Microsoft Fabric.
 
-If you’ve finished exploring your data, you can end the Spark session and delete the workspace that you created for this exercise.
+If you’ve finished exploring your data, you can end the Spark session.
+On the notebook menu, select **Stop session** to end the Spark session.
 
-1.	On the notebook menu, select **Stop session** to end the Spark session.
-1.	In the bar on the left, select the icon for your workspace to view all of the items it contains.
-1.	Select **Workspace settings** and in the **General** section, scroll down and select **Remove this workspace**.
-1.	Select **Delete** to delete the workspace.
 
