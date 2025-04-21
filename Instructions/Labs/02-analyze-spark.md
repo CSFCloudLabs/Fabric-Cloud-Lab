@@ -29,7 +29,7 @@ Now that you have a workspace, you can create a lakehouse to store your data fil
 
 You can now ingest data into the lakehouse. There are several ways to do this, but for now you’ll download a folder of text files to your local computer (or lab VM if applicable) and then upload them to your lakehouse.
 
-1. Download the datafiles from `https://github.com/CSFCloudLabs/Fabric-Cloud-Lab/raw/main/Allfiles/Labs/02/orders.zip`.
+1. Download the datafiles [orders.zip](https://github.com/CSFCloudLabs/Fabric-Cloud-Lab/raw/main/Allfiles/Labs/02/orders.zip) from `https://github.com/CSFCloudLabs/Fabric-Cloud-Lab/raw/main/Allfiles/Labs/02/orders.zip`.
 1. Extract the zipped archive and verify that you have a folder named *orders* which contains three CSV files: 2019.csv, 2020.csv, and 2021.csv.
 1. Return to your new lakehouse. In the **Explorer** pane, next to the **Files** folder select the **…** menu, and select **Upload** and **Upload folder**. Navigate to the orders folder on your local computer (or lab VM if applicable) and select **Upload**.
 1. After the files have been uploaded, expand **Files** and select the **orders** folder. Check that the CSV files have been uploaded, as shown here:
