@@ -10,18 +10,16 @@ In Microsoft Fabric, a data warehouse provides a relational database for large-s
 
 This lab will take approximately **30** minutes to complete.
 
-> **Note**: You need a [Microsoft Fabric trial](https://learn.microsoft.com/fabric/get-started/fabric-trial) to complete this exercise.
+## Navigate to your workspace
 
-## Create a workspace
-
-Before working with data in Fabric, create a workspace with the Fabric trial enabled.
+Before working with data in Fabric, navigate to your workspace.
 
 1. Navigate to the [Microsoft Fabric home page](https://app.fabric.microsoft.com/home?experience=fabric) at `https://app.fabric.microsoft.com/home?experience=fabric` in a browser, and sign in with your Fabric credentials.
 1. In the menu bar on the left, select **Workspaces** (the icon looks similar to &#128455;).
-1. Create a new workspace with a name of your choice, selecting a licensing mode that includes Fabric capacity (*Trial*, *Premium*, or *Fabric*).
-1. When your new workspace opens, it should be empty.
+1. Select the Workspace that is assigned to your user.
 
     ![Screenshot of an empty workspace in Fabric.](./Images/new-workspace.png)
+1. Click on New folder and name it Exercise 6. Once created, open it and proceed from there.
 
 ## Create a data warehouse
 
@@ -68,7 +66,7 @@ A warehouse is a relational database in which you can define tables and other ob
 
 5. Run the new query to insert three rows into the **DimProduct** table.
 6. When the query has finished, in the **Explorer** pane, select the **DimProduct** table and verify that the three rows have been added to the table.
-7. On the **Home** menu tab, use the **New SQL Query** button to create a new query. Then copy and paste the Transact-SQL code from `https://raw.githubusercontent.com/MicrosoftLearning/dp-data/main/create-dw.txt` into the new query pane.
+7. On the **Home** menu tab, use the **New SQL Query** button to create a new query. Then copy and paste the Transact-SQL code from `https://raw.githubusercontent.com/CSFCloudLabs/Fabric-Cloud-Lab/refs/heads/main/Allfiles/Labs/06/create-dw.txt` into the new query pane.
 8. Run the query, which creates a simple data warehouse schema and loads some data. The script should take around 30 seconds to run.
 9. Use the **Refresh** button on the toolbar to refresh the view. Then in the **Explorer** pane, verify that the **dbo** schema in the data warehouse now contains the following four tables:
     - **DimCustomer**
@@ -238,12 +236,7 @@ You can easily visualize the data in either a single query, or in your data ware
 
     ![Screenshot of the workspace with the three items listed.](./Images/workspace-items.png)
 
-## Clean up resources
+## Summary
 
 In this exercise, you have created a data warehouse that contains multiple tables. You used SQL to insert data into the tables and query them. and also used the visual query tool. Finally, you enhanced the data model for the data warehouse's default dataset and used it as the source for a report.
 
-If you've finished exploring your data warehouse, you can delete the workspace you created for this exercise.
-
-1. In the bar on the left, select the icon for your workspace to view all of the items it contains.
-2. In the **...** menu on the toolbar, select **Workspace settings**.
-3. In the **General** section, select **Remove this workspace**.
