@@ -169,8 +169,3 @@ The tables in your lakehouse are automatically added to a default semantic model
 
 In this exercise, you have created a lakehouse and imported data into it. You've seen how a lakehouse consists of files and tables stored in a OneLake data store. The managed tables can be queried using SQL, and are included in a default semantic model to support data visualizations.
 
-If you've finished exploring your lakehouse, you can delete the workspace you created for this exercise.
-
-1. In the bar on the left, select the icon for your workspace to view all of the items it contains.
-2. In the toolbar, select **Workspace settings**.
-3. In the **General** section, select **Remove this workspace**.
