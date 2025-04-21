@@ -27,7 +27,7 @@ Before you can work with data in Fabric you need to navigate to your workspace.
 
 Now that you have a workspace, you can create a lakehouse to store your data files. From your new workspace, select **+ New item** and **Lakehouse**. Give the lakehouse a name, and then select **Create**. After a short delay, a new lakehouse is created.
 
-You can now ingest data into the lakehouse. There are several ways to do this, but for now you’ll download a folder of text files to your local computer (or lab VM if applicable) and then upload them to your lakehouse.
+You can now ingest data into the lakehouse. There are several ways to do this, but for now you’ll download a folder of text files to your local computer and then upload them to your lakehouse.
 
 1. Download the datafiles [orders.zip](https://github.com/CSFCloudLabs/Fabric-Cloud-Lab/raw/main/Allfiles/Labs/02/orders.zip) from `https://github.com/CSFCloudLabs/Fabric-Cloud-Lab/raw/main/Allfiles/Labs/02/orders.zip`.
 1. Extract the zipped archive and verify that you have a folder named *orders* which contains three CSV files: 2019.csv, 2020.csv, and 2021.csv.
