@@ -30,9 +30,9 @@ Now that you have a workspace, it’s time to create a lakehouse and upload some
 
     >**Note**: If the **Create** option is not pinned to the sidebar, you need to select the ellipsis (**...**) option first.
 
-1. There are various ways to ingest data, but in this exercise you’ll download a text file to your local computer (or lab VM if applicable) and then upload it to your lakehouse. Download the [data file](https://github.com/MicrosoftLearning/dp-data/raw/main/products.csv) from `https://github.com/MicrosoftLearning/dp-data/raw/main/products.csv`, saving it as *products.csv*.
+1. There are various ways to ingest data, but in this exercise you’ll download a text file to your local computer and then upload it to your lakehouse. Download the [data file](https://raw.githubusercontent.com/CSFCloudLabs/Fabric-Cloud-Lab/refs/heads/main/Allfiles/Labs/03/products.csv) from `https://raw.githubusercontent.com/CSFCloudLabs/Fabric-Cloud-Lab/refs/heads/main/Allfiles/Labs/03/products.csv`, saving it as *products.csv*.
 1.	Return to the web browser tab containing your lakehouse, and in the Explorer pane, next to the **Files** folder, select the … menu.  Create a **New subfolder** called *products*.
-1.	In the … menu for the products folder, **upload** the *products.csv* file from your local computer (or lab VM if applicable).
+1.	In the … menu for the products folder, **upload** the *products.csv* file from your local computer.
 1.	After the file has been uploaded, select the **products** folder to verify that the file has been uploaded, as shown here:
 
     ![Screen picture of products.csv uploaded to the lakehouse.](Images/upload-products.jpg)
@@ -363,12 +363,7 @@ This code queries the IotDeviceData table again, which should now include the ad
     deltastream.stop()
     ```
 
-## Clean up resources
+## Summary
 
 In this exercise, you’ve learned how to work with Delta tables in Microsoft Fabric.
 
-If you’ve finished exploring your lakehouse, you can delete the workspace you created for this exercise.
-
-1. In the bar on the left, select the icon for your workspace to view all of the items it contains.
-2. In the … menu on the toolbar, select **Workspace settings**.
-3. In the General section, select **Remove this workspace**.
