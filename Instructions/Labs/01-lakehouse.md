@@ -13,7 +13,7 @@ In Microsoft Fabric, a lakehouse provides highly scalable file storage in a *One
 This lab takes approximately **30** minutes to complete.
 
 
-## Create a workspace
+## Navigate to your workspace
 
 Before working with data in Fabric, navigate to your workspace.
 
