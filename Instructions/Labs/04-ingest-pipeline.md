@@ -12,16 +12,13 @@ Fabric also supports Apache Spark, enabling you to write and run code to process
 
 This lab will take approximately **45** minutes to complete.
 
-> **Note**: You need a [Microsoft Fabric trial](https://learn.microsoft.com/fabric/get-started/fabric-trial) to complete this exercise.
+## Navigate to your workspace
 
-## Create a workspace
-
-Before working with data in Fabric, create a workspace with the Fabric trial enabled.
+Before working with data in Fabric, you need to navigate to your workspace.
 
 1. Navigate to the [Microsoft Fabric home page](https://app.fabric.microsoft.com/home?experience=fabric) at `https://app.fabric.microsoft.com/home?experience=fabric` in a browser, and sign in with your Fabric credentials.
 1. In the menu bar on the left, select **Workspaces** (the icon looks similar to &#128455;).
-1. Create a new workspace with a name of your choice, selecting a licensing mode that includes Fabric capacity (*Trial*, *Premium*, or *Fabric*).
-1. When your new workspace opens, it should be empty.
+1. Select the Workspace that is assigned to your user.
 
     ![Screenshot of an empty workspace in Fabric.](./Images/new-workspace.png)
 
@@ -49,7 +46,7 @@ A simple way to ingest data is to use a **Copy Data** activity in a pipeline to 
     ![Screenshot of the Choose data source page.](./Images/choose-data-source.png)
 
 4. In the **Connect to data source** pane, enter the following settings for the connection to your data source:
-    - **URL**: `https://raw.githubusercontent.com/MicrosoftLearning/dp-data/main/sales.csv`
+    - **URL**: `https://raw.githubusercontent.com/CSFCloudLabs/Fabric-Cloud-Lab/refs/heads/main/Allfiles/Labs/01/sales.csv`
     - **Connection**: Create new connection
     - **Connection name**: *Specify a unique name*
     - **Data gateway**: (none)
@@ -190,12 +187,7 @@ Now that you've implemented a notebook to transform data and load it into a tabl
 
 In this exercise, you implemented a data ingestion solution that uses a pipeline to copy data to your lakehouse from an external source, and then uses a Spark notebook to transform the data and load it into a table.
 
-## Clean up resources
+## Summary
 
 In this exercise, you've learned how to implement a pipeline in Microsoft Fabric.
 
-If you've finished exploring your lakehouse, you can delete the workspace you created for this exercise.
-
-1. In the bar on the left, select the icon for your workspace to view all of the items it contains.
-1. Select **Workspace settings** and in the **General** section, scroll down and select **Remove this workspace**.
-1. Select **Delete** to delete the workspace.
