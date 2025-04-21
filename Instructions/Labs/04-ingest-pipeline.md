@@ -21,6 +21,7 @@ Before working with data in Fabric, you need to navigate to your workspace.
 1. Select the Workspace that is assigned to your user.
 
     ![Screenshot of an empty workspace in Fabric.](./Images/new-workspace.png)
+1. Click on New folder and name it Exercise 4. Once created, open it and proceed from there.
 
 ## Create a lakehouse
 
