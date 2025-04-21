@@ -165,7 +165,7 @@ The tables in your lakehouse are automatically added to a default semantic model
     - A default semantic model for the tables in your lakehouse.
     - The **Item Sales Report** report.
 
-## Clean up resources
+## Summary
 
 In this exercise, you have created a lakehouse and imported data into it. You've seen how a lakehouse consists of files and tables stored in a OneLake data store. The managed tables can be queried using SQL, and are included in a default semantic model to support data visualizations.
 
