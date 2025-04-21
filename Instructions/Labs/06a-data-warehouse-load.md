@@ -10,18 +10,16 @@ In Microsoft Fabric, a data warehouse provides a relational database for large-s
 
 This lab will take approximately **30** minutes to complete.
 
-> **Note**: You need a [Microsoft Fabric trial](https://learn.microsoft.com/fabric/get-started/fabric-trial) to complete this exercise.
+## Navigate to your workspace
 
-## Create a workspace
-
-Before working with data in Fabric, create a workspace with the Fabric trial enabled.
+Before working with data in Fabric, navigate to your workspace.
 
 1. Navigate to the [Microsoft Fabric home page](https://app.fabric.microsoft.com/home?experience=fabric) at `https://app.fabric.microsoft.com/home?experience=fabric` in a browser, and sign in with your Fabric credentials.
 1. In the menu bar on the left, select **Workspaces** (the icon looks similar to &#128455;).
-1. Create a new workspace with a name of your choice, selecting a licensing mode that includes Fabric capacity (*Trial*, *Premium*, or *Fabric*).
-1. When your new workspace opens, it should be empty.
+1. Select the Workspace that is assigned to your user.
 
     ![Screenshot of an empty workspace in Fabric.](./Images/new-workspace.png)
+1. Click on New folder and name it Exercise 6a. Once created, open it and proceed from there.
 
 ## Create a lakehouse and upload files
 
@@ -29,11 +27,11 @@ In our scenario, since we don't have any available data, we must ingest data to 
 
 1. Select **+ New item** and create a new **Lakehouse** with a name of your choice.
 
-    After a minute or so, a new empty lakehouse will be created. You need to ingest some data into the data lakehouse for analysis. There are multiple ways to do this, but in this exercise you'll download a CSV file to your local computer (or lab VM if applicable) and then upload it to your lakehouse.
+    After a minute or so, a new empty lakehouse will be created. You need to ingest some data into the data lakehouse for analysis. There are multiple ways to do this, but in this exercise you'll download a CSV file to your local computer and then upload it to your lakehouse.
 
-1. Download the file for this exercise from `https://github.com/MicrosoftLearning/dp-data/raw/main/sales.csv`.
+1. Download the file for this exercise from `https://raw.githubusercontent.com/CSFCloudLabs/Fabric-Cloud-Lab/refs/heads/main/Allfiles/Labs/01/sales.csv`.
 
-1. Return to the web browser tab containing your lakehouse, and in the **...** menu for the **Files** folder in the **Explorer** pane, select **Upload** and **Upload files**, and then upload the **sales.csv** file from your local computer (or lab VM if applicable) to the lakehouse.
+1. Return to the web browser tab containing your lakehouse, and in the **...** menu for the **Files** folder in the **Explorer** pane, select **Upload** and **Upload files**, and then upload the **sales.csv** file from your local computer to the lakehouse.
 
 1. After the files have been uploaded, select **Files**. Verify that the CSV file has been uploaded, as shown here:
 
@@ -245,10 +243,3 @@ Let's run some analytical queries to validate the data in the warehouse.
 
 In this exercise, you have created a lakehouse and a data warehouse with multiple tables. You have ingested data and used cross-database queries to load data from the lakehouse to the warehouse. Additionally, you have used the query tool to perform analytical queries.
 
-## Clean up resources
-
-If you've finished exploring your data warehouse, you can delete the workspace you created for this exercise.
-
-1. In the bar on the left, select the icon for your workspace to view all of the items it contains.
-1. Select **Workspace settings** and in the **General** section, scroll down and select **Remove this workspace**.
-1. Select **Delete** to delete the workspace.
