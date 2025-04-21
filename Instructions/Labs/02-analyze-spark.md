@@ -10,20 +10,18 @@ In this lab you will ingest data into the Fabric lakehouse and use PySpark to re
 
 This lab will take approximately 45 minutes to complete.
 
-## Prerequisites
 
-* A [Microsoft Fabric trial](https://www.microsoft.com/microsoft-fabric/getting-started).
+## Navigate to your workspace
 
-## Create a workspace
-
-Before you can work with data in Fabric you need to create a workspace.
+Before you can work with data in Fabric you need to navigate to your workspace.
 
 1. Navigate to the [Microsoft Fabric home page](https://app.fabric.microsoft.com/home?experience=fabric) at `https://app.fabric.microsoft.com/home?experience=fabric` in a browser, and sign in with your Fabric credentials.
-1. From the left menu bar, select **Workspaces** (🗇) and then **New workspace**.
-1. Give the new workspace a name and in the **Advanced** section, select the appropriate Licensing mode. If you have started a Microsoft Fabric trial, select Trial.
-1. Select **Apply** to create an empty workspace.
+1. From the left menu bar, select **Workspaces** (🗇).
+1. Select the Workspace that is assigned to your user.
  
     ![Screen picture of a new Fabric workspace.](Images/new-workspace.jpg)
+
+1. Click on New folder and name it Exercise 2. Once created, open it and proceed from there.
 
 ## Create a lakehouse and upload files
 
@@ -31,7 +29,7 @@ Now that you have a workspace, you can create a lakehouse to store your data fil
 
 You can now ingest data into the lakehouse. There are several ways to do this, but for now you’ll download a folder of text files to your local computer (or lab VM if applicable) and then upload them to your lakehouse.
 
-1. Download the datafiles from `https://github.com/MicrosoftLearning/dp-data/raw/main/orders.zip`.
+1. Download the datafiles from `https://github.com/CSFCloudLabs/Fabric-Cloud-Lab/raw/main/orders.zip`.
 1. Extract the zipped archive and verify that you have a folder named *orders* which contains three CSV files: 2019.csv, 2020.csv, and 2021.csv.
 1. Return to your new lakehouse. In the **Explorer** pane, next to the **Files** folder select the **…** menu, and select **Upload** and **Upload folder**. Navigate to the orders folder on your local computer (or lab VM if applicable) and select **Upload**.
 1. After the files have been uploaded, expand **Files** and select the **orders** folder. Check that the CSV files have been uploaded, as shown here:
