@@ -18,7 +18,7 @@ Before working with data in Fabric, create a workspace with the Fabric trial ena
 
 1. Navigate to the [Microsoft Fabric home page](https://app.fabric.microsoft.com/home?experience=fabric) at `https://app.fabric.microsoft.com/home?experience=fabric` in a browser, and sign in with your Fabric credentials.
 1. In the menu bar on the left, select **Workspaces** (the icon looks similar to &#128455;).
-1. 1. Select the Workspace that is assigned to your user.
+1. Select the Workspace that is assigned to your user.
 
     ![Screenshot of an empty workspace in Fabric.](./Images/new-workspace.png)
 1. Click on New folder and name it Exercise 8. Once created, open it and proceed from there.
