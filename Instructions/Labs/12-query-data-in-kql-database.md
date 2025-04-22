@@ -14,16 +14,16 @@ In this exercise, you'll create and populate an eventhouse with some sample data
 
 This exercise takes approximately **25** minutes to complete.
 
-## Create a workspace
+## Navigate to your workspace
 
-Before working with data in Fabric, create a workspace with the Fabric capacity enabled.
+Before working with data in Fabric, navigate to your workspace.
 
 1. Navigate to the [Microsoft Fabric home page](https://app.fabric.microsoft.com/home?experience=fabric) at `https://app.fabric.microsoft.com/home?experience=fabric` in a browser and sign in with your Fabric credentials.
 1. In the menu bar on the left, select **Workspaces** (the icon looks similar to &#128455;).
-1. Create a new workspace with a name of your choice, selecting a licensing mode that includes Fabric capacity (*Trial*, *Premium*, or *Fabric*).
-1. When your new workspace opens, it should be empty.
+1. Select the Workspace that is assigned to your user.
 
     ![Screenshot of an empty workspace in Fabric.](./Images/new-workspace.png)
+1. Click on New folder and name it Exercise 12. Once created, open it and proceed from there.
 
 ## Create an Eventhouse
 
@@ -246,12 +246,6 @@ KQL Database doesn't support Transact-SQL natively, but it provides a T-SQL endp
     ORDER BY Neighbourhood ASC;
     ```
 
-## Clean up resources
+## Summary
 
 In this exercise, you have created an eventhouse and queried data using KQL and SQL.
-
-When you've finished exploring your KQL database, you can delete the workspace you created for this exercise.
-
-1. In the bar on the left, select the icon for your workspace.
-2. In the toolbar, select **Workspace settings**.
-3. In the **General** section, select **Remove this workspace**.
