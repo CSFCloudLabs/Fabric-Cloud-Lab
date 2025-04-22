@@ -10,19 +10,17 @@ In this lab, we'll use notebooks for data exploration. Notebooks are a powerful 
 
 This lab takes approximately **30** minutes to complete.
 
-> **Note**: You need a [Microsoft Fabric trial](https://learn.microsoft.com/fabric/get-started/fabric-trial) to complete this exercise.
-
-## Create a workspace
+## Navigate to your workspace
 
 Before working with data in Fabric, create a workspace with the Fabric trial enabled.
 
 1. Navigate to the [Microsoft Fabric home page](https://app.fabric.microsoft.com/home?experience=fabric) at `https://app.fabric.microsoft.com/home?experience=fabric` in a browser, and sign in with your Fabric credentials.
 1. In the menu bar on the left, select **Workspaces** (the icon looks similar to &#128455;).
-1. Create a new workspace with a name of your choice, selecting a licensing mode that includes Fabric capacity (*Trial*, *Premium*, or *Fabric*).
-1. When your new workspace opens, it should be empty.
+1. Select the Workspace that is assigned to your user.
 
     ![Screenshot of an empty workspace in Fabric.](./Images/new-workspace.png)
-
+1. Click on New folder and name it Exercise 8a. Once created, open it and proceed from there.
+   
 ## Create a notebook
 
 To train a model, you can create a *notebook*. Notebooks provide an interactive environment in which you can write and run code (in multiple languages) as *experiments*.
@@ -289,12 +287,7 @@ Now that you've finished exploring the data, you can save the notebook with a me
 2. Set the **Name** of the notebook to **Explore data for data science**, and then close the settings pane.
 3. On the notebook menu, select **Stop session** to end the Spark session.
 
-## Clean up resources
+## Summary
 
 In this exercise, you've created and used notebooks for data exploration. You've also executed code to calculate summary statistics, and create visualizations to better understand the patterns and relationships in the data.
 
-If you've finished exploring your model and experiments, you can delete the workspace you created for this exercise.
-
-1. In the bar on the left, select the icon for your workspace to view all of the items it contains.
-2. In the **...** menu on the toolbar, select **Workspace settings**.
-3. In the **General** section, select **Remove this workspace**.
