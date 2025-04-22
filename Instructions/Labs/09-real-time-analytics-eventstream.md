@@ -11,18 +11,16 @@ In this exercise, you'll ingest data from a sample data source that emits a stre
 
 This lab takes approximately **30** minutes to complete.
 
-> **Note**: You need a [Microsoft Fabric tenant](https://learn.microsoft.com/fabric/get-started/fabric-trial) to complete this exercise.
+## Navigate to your workspace
 
-## Create a workspace
-
-Before working with data in Fabric, you need to create a workspace with the Fabric capacity enabled.
+Before working with data in Fabric, navigate to your workspace.
 
 1. Navigate to the [Microsoft Fabric home page](https://app.fabric.microsoft.com/home?experience=fabric) at `https://app.fabric.microsoft.com/home?experience=fabric` in a browser and sign in with your Fabric credentials.
 1. In the menu bar on the left, select **Workspaces** (the icon looks similar to &#128455;).
-1. Create a new workspace with a name of your choice, selecting a licensing mode that includes Fabric capacity (*Trial*, *Premium*, or *Fabric*).
-1. When your new workspace opens, it should be empty.
+1. Select the Workspace that is assigned to your user.
 
     ![Screenshot of an empty workspace in Fabric.](./Images/new-workspace.png)
+1. Click on New folder and name it Exercise 9. Once created, open it and proceed from there.
 
 ## Create an eventhouse
 
@@ -62,7 +60,7 @@ Now that you have a workspace, you can start creating the Fabric items you'll ne
 1. In the **Eventhouse** pane, configure the following setup options.
    - **Data ingestion mode:**: Event processing before ingestion
    - **Destination name:** `bikes-table`
-   - **Workspace:** *Select the workspace you created at the beginning of this exercise*
+   - **Workspace:** *Select the workspace that is assigned to your user*
    - **Eventhouse**: *Select your eventhouse*
    - **KQL database:** *Select your KQL database*
    - **Destination table:** Create a new table named `bikes`
@@ -129,7 +127,7 @@ The data you've captured is unaltered from the source. In many scenarios, you ma
 1. Configure the new eventhouse node with the following options:
    - **Data ingestion mode:**: Event processing before ingestion
    - **Destination name:** `bikes-by-street-table`
-   - **Workspace:** *Select the workspace you created at the beginning of this exercise*
+   - **Workspace:** *Select the workspace that is assigned to your user*
    - **Eventhouse**: *Select your eventhouse*
    - **KQL database:** *Select your KQL database*
    - **Destination table:** Create a new table named `bikes-by-street`
@@ -232,13 +230,7 @@ So far, you've used an eventstream to load data into tables in an eventhouse. Yo
 
 -->
 
-## Clean up resources
+## Summary
 
 In this exercise, you have created an eventhouse and pipulated tables in its database by using an eventstream.
 
-When you've finished exploring your KQL database, you can delete the workspace you created for this exercise.
-
-1. In the bar on the left, select the icon for your workspace.
-2. In the toolbar, select **Workspace settings**.
-3. In the **General** section, select **Remove this workspace**.
-.
