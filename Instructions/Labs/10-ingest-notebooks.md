@@ -14,18 +14,16 @@ For this experience, you'll build the code across multiple notebook code cells, 
 
 Because you're also working with a sample dataset, the optimization doesn't reflect what you may see in production at scale; however, you can still see improvement and when every millisecond counts, optimization is key.
 
-> **Note**: You need a [Microsoft Fabric trial](https://learn.microsoft.com/fabric/get-started/fabric-trial) to complete this exercise.
+## Navigate to your workspace
 
-## Create a workspace
-
-Before working with data in Fabric, create a workspace with the Fabric trial enabled.
+Before working with data in Fabric, navigate to your workspace.
 
 1. Navigate to the [Microsoft Fabric home page](https://app.fabric.microsoft.com/home?experience=fabric) at `https://app.fabric.microsoft.com/home?experience=fabric` in a browser and sign in with your Fabric credentials.
 1. In the menu bar on the left, select **Workspaces** (the icon looks similar to &#128455;).
-1. Create a new workspace with a name of your choice, selecting a licensing mode that includes Fabric capacity (*Trial*, *Premium*, or *Fabric*).
-1. When your new workspace opens, it should be empty.
+1. Select the Workspace that is assigned to your user.
 
     ![Screenshot of an empty workspace in Fabric.](./Images/new-workspace.png)
+1. Click on New folder and name it Exercise 10. Once created, open it and proceed from there.
 
 ## Create workspace and lakehouse destination
 
@@ -172,12 +170,7 @@ This lab is focused on data ingestion, which really explains the *extract, trans
 
    The code you just ran creates a relational *view* of the data in a dataframe, and then uses the **spark.sql** library to embed Spark SQL syntax within your Python code and query the view and return the results as a dataframe.
 
-## Clean up resources
+## Summary
 
 In this exercise, you have used notebooks with PySpark in Fabric to load data and save it to Parquet. You then used that Parquet file to further transform the data. Finally you used SQL to query the Delta tables.
 
-When you're finished exploring, you can delete the workspace you created for this exercise.
-
-1. In the bar on the left, select the icon for your workspace to view all of the items it contains.
-1. Select **Workspace settings** and in the **General** section, scroll down and select **Remove this workspace**.
-1. Select **Delete** to delete the workspace.
