@@ -12,18 +12,16 @@ By completing this lab, you'll gain hands-on experience in machine learning and 
 
 This lab will take approximately **25** minutes to complete.
 
-> **Note**: You need a [Microsoft Fabric trial](https://learn.microsoft.com/fabric/get-started/fabric-trial) to complete this exercise.
+## Navigate to your workspace
 
-## Create a workspace
-
-Before working with data in Fabric, create a workspace with the Fabric trial enabled.
+Before working with data in Fabric, navigate to your workspace.
 
 1. Navigate to the[Microsoft Fabric home page](https://app.fabric.microsoft.com/home?experience=fabric) at `https://app.fabric.microsoft.com/home?experience=fabric` in a browser and sign in with your Fabric credentials.
 1. In the menu bar on the left, select **Workspaces** (the icon looks similar to &#128455;).
-1. Create a new workspace with a name of your choice, selecting a licensing mode that includes Fabric capacity (*Trial*, *Premium*, or *Fabric*).
-1. When your new workspace opens, it should be empty.
+1. Select the Workspace that is assigned to your user.
 
     ![Screenshot of an empty workspace in Fabric.](./Images/new-workspace.png)
+1. Click on New folder and name it Exercise 8c. Once created, open it and proceed from there.
 
 ## Create a notebook
 
@@ -259,12 +257,8 @@ Now that you've finished training and evaluating the models, you can save the no
 2. Set the **Name** of the notebook to **Train and compare models**, and then close the settings pane.
 3. On the notebook menu, select **Stop session** to end the Spark session.
 
-## Clean up resources
+## Summary
 
 In this exercise, you have created a notebook and trained a machine learning model. You used scikit-learn to train the model and MLflow to track its performance.
 
-If you've finished exploring your model and experiments, you can delete the workspace that you created for this exercise.
 
-1. In the bar on the left, select the icon for your workspace to view all of the items it contains.
-2. In the **...** menu on the toolbar, select **Workspace settings**.
-3. In the **General** section, select **Remove this workspace** .
