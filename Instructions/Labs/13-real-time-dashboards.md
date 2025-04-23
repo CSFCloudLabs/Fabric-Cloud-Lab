@@ -10,18 +10,16 @@ Real-time dashboards in Microsoft Fabric enable you to visualize and explore str
 
 This lab takes approximately **25** minutes to complete.
 
-> **Note**: You need a [Microsoft Fabric tenant](https://learn.microsoft.com/fabric/get-started/fabric-trial) to complete this exercise.
+## Navigate to your workspace
 
-## Create a workspace
-
-Before working with data in Fabric, you need to create a workspace with the Fabric capacity enabled.
+Before working with data in Fabric, navigate to your workspace.
 
 1. Navigate to the [Microsoft Fabric home page](https://app.fabric.microsoft.com/home?experience=fabric) at `https://app.fabric.microsoft.com/home?experience=fabric` in a browser and sign in with your Fabric credentials.
 1. In the menu bar on the left, select **Workspaces** (the icon looks similar to &#128455;).
-1. Create a new workspace with a name of your choice, selecting a licensing mode that includes Fabric capacity (*Trial*, *Premium*, or *Fabric*).
-1. When your new workspace opens, it should be empty.
+1. Select the Workspace that is assigned to your user.
 
     ![Screenshot of an empty workspace in Fabric.](./Images/new-workspace.png)
+1. Click on New folder and name it Exercise 13. Once created, open it and proceed from there.
 
 ## Create an eventhouse
 
@@ -60,7 +58,7 @@ Currently there are no tables in the database. We'll use an eventstream to load 
 1. In the **Eventhouse** pane, configure the following setup options.
    - **Data ingestion mode:**: Event processing before ingestion
    - **Destination name:** `bikes-table`
-   - **Workspace:** *Select the workspace you created at the beginning of this exercise*
+   - **Workspace:** *Select the workspace that is assigned to your user*
    - **Eventhouse**: *Select your eventhouse*
    - **KQL database:** *Select your KQL database*
    - **Destination table:** Create a new table named `bikes`
@@ -279,10 +277,3 @@ Now you have a useful dashboard, you can save it and share it with other users.
 1. Open a new browser tab and paste the copied link to navigate to the shared dashboard. Sign in again with your Fabric credentials if prompted.
 1. Explore the dashboard, using it to see the latest information about bikes and empty bike docks across the city.
 
-## Clean up resources
-
-When you've finished exploring your dashboard, you can delete the workspace you created for this exercise.
-
-1. In the bar on the left, select the **icon** for your workspace.
-2. In the the toolbar, select **Workspace settings**.
-3. In the **General** section, select **Remove this workspace**.
