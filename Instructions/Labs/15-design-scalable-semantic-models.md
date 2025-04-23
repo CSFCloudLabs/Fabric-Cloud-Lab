@@ -18,9 +18,9 @@ This lab takes approximately **30** minutes to complete.
 
 ## Before you start
 
-1. Download the [Sales Analysis starter file](https://github.com/MicrosoftLearning/mslearn-fabric/raw/main/Allfiles/Labs/15/15-scalable-semantic-models.zip) from `https://github.com/MicrosoftLearning/mslearn-fabric/raw/main/Allfiles/Labs/15/15-scalable-semantic-models.zip` and save it locally.
+1. Download the [Sales Analysis starter file](https://github.com/CSFCloudLabs/Fabric-Cloud-Lab/raw/main/Allfiles/Labs/15/15-scalable-semantic-models.zip) from `https://github.com/CSFCloudLabs/Fabric-Cloud-Lab/raw/main/Allfiles/Labs/15/15-scalable-semantic-models.zip` and save it locally.
 
-2. Extract the folder to the **C:\Users\Student\Downloads\15-scalable-semantic-models** folder.
+2. Extract the folder.
 
 3. Open the **15-Starter-Sales Analysis.pbix** file.
 
