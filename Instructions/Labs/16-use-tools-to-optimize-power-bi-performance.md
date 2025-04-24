@@ -15,8 +15,6 @@ In this exercise, you learn how to use:
 
 This lab takes approximately **30** minutes to complete.
 
-> **Note**: You need a [Microsoft Fabric trial](https://learn.microsoft.com/fabric/get-started/fabric-trial) to complete this exercise.
-
 ## Get started
 
 For this lab you'll install and use Tabular Editor, and DAX Studio to optimize a semantic model.
@@ -31,8 +29,7 @@ In this exercise, you will install Tabular Editor 2 and load Best Practice Analy
 
 Download and install Tabular Editor 2 to enable the creation of calculation groups.
 
-***Important**: If you have already installed Tabular Editor 2 in your VM
-environment, continue to the next task.*
+***Important**: If you have already installed Tabular Editor 2, continue to the next task.*
 
 *Tabular Editor is an alternative tool for authoring tabular models for Analysis Services and Power BI. Tabular Editor 2 is an open source project that can edit a BIM file without accessing any data in the model.*
 
