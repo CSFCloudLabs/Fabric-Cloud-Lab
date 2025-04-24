@@ -10,18 +10,16 @@ Microsoft Fabric has a multi-layer security model for managing data access. Secu
 
 This lab takes approximately **45** minutes to complete.
 
-## Create a workspace
+## Navigate to your workspace
 
-Before working with data in Fabric, create a workspace with the Fabric trial enabled.
+Before working with data in Fabric, navigate to your workspace.
 
 1. Navigate to the [Microsoft Fabric home page](https://app.fabric.microsoft.com/home?experience=fabric) at `https://app.fabric.microsoft.com/home?experience=fabric` in a browser and sign in with your Fabric credentials.
 1. In the menu bar on the left, select **Workspaces** (the icon looks similar to &#128455;).
-1. Create a new workspace with a name of your choice, selecting a licensing mode that includes Fabric capacity (*Trial*, *Premium*, or *Fabric*).
-1. When your new workspace opens, it should be empty.
+1. Select the Workspace that is assigned to your user.
 
-    ![Screenshot of an empty workspace in Fabric.](./Images/new-empty-workspace.png)
-
-> **Note**: When you create a workspace, you automatically become a member of the Workspace Admin role. 
+    ![Screen picture of an empty Fabric workspace.](Images/new-workspace.png)
+1. Click on New folder and name it Exercise 19. Once created, open it and proceed from there.
 
 ## Create a data warehouse
 
@@ -159,10 +157,6 @@ In this exercise, you assign an item permission and create a OneLake data access
 
        ![Screenshot of the what the OneLake data access role allows the user to see.](./Images/custom-role-view.png)
 
-## Clean up resources
+## Summary
 
 In this exercise, you secured data using workspace access controls, item access controls and, OneLake data access roles.
-
-1. In the left navigation bar, select the icon for your workspace to view all of the items it contains.
-2. In the menu on the top toolbar, select **Workspace settings**.
-3. In the **General** section, select **Remove this workspace**.
