@@ -17,8 +17,6 @@ In this exercise, you learn how to:
 
 This lab takes approximately **45** minutes to complete.
 
-> **Note**: You need a [Microsoft Fabric trial](https://learn.microsoft.com/fabric/get-started/fabric-trial) to complete this exercise.
-
 ## Get started
 
 In this exercise, you will prepare your environment.
@@ -43,19 +41,14 @@ In this task, you will sign in to the Power BI service, start a trial license, a
 
     *Tip: The Power BI web browser experience is known as the **Power BI service**.*
 
-### Create a workspace
+### Navigate to your workspace
 
-In this task, you will create a workspace.
+In this task, you will navigate to your workspace.
 
-1. In the Power BI service, to create a workspace, in the **Navigation** pane (located at the left), select **Workspaces**, and then select **+ New workspace**.
+1. In the Power BI service, in the **Navigation** pane (located at the left), select **Workspaces**, and then select the workspace assigned to your user.
 
-2. In the **Create a workspace** pane (located at the right), in the **Name** box, enter a name for the workspace.
+2. Click on New folder and name it Exercise 17. Once created, open it and proceed from there.
 
-    *The workspace name must be unique within the tenant.*
-
-3. Select **Apply**.
-
-    *Once created, the workspace is opened. In a later exercise, you will publish a semantic model to this workspace.*
 
 ### Review the data model
 
