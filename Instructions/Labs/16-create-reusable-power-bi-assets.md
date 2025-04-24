@@ -27,9 +27,6 @@ In this task, you use an existing report to create a shared semantic model for r
 
 1. From a web browser, navigate and sign in to the Fabric service: [https://app.fabric.microsoft.com](https://app.fabric.microsoft.com)
 1. Navigate to the Power BI experience, use your existing workspace and create a folder named Exercise 16.
-
-    ![Screenshot of the Workspace pane highlighting the + New workspace button.](./Images/power-bi-new-workspace.png)
-
 1. In the top ribbon in your new workspace, select **Upload > Browse**.
 1. In the new File Explorer dialog box, navigate to and select the starter *.pbix* file and select **Open** to upload.
 1. Notice how you now have two different items in the workspace with the same name:
