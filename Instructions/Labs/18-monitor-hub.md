@@ -10,18 +10,16 @@ The *monitoring hub* in Microsoft Fabric provides a central place where you can 
 
 This lab takes approximately **30** minutes to complete.
 
-> **Note**: You need access to a [Microsoft Fabric tenant](https://learn.microsoft.com/fabric/get-started/fabric-trial) to complete this exercise.
+## Navigate to your workspace
 
-## Create a workspace
-
-Before working with data in Fabric, create a workspace in a tenant with the Fabric capacity enabled.
+Before working with data in Fabric, navigate to your workspace.
 
 1. Navigate to the [Microsoft Fabric home page](https://app.fabric.microsoft.com/home?experience=fabric) at `https://app.fabric.microsoft.com/home?experience=fabric` in a browser and sign in with your Fabric credentials.
 1. In the menu bar on the left, select **Workspaces** (the icon looks similar to &#128455;).
-1. Create a new workspace with a name of your choice, selecting a licensing mode in the **Advanced** section that includes Fabric capacity (*Trial*, *Premium*, or *Fabric*).
-1. When your new workspace opens, it should be empty.
+1. Select the Workspace that is assigned to your user.
 
     ![Screenshot of an empty workspace in Fabric.](./Images/new-workspace.png)
+1. Click on New folder and name it Exercise 18. Once created, open it and proceed from there.
 
 ## Create a lakehouse
 
@@ -50,7 +48,7 @@ In Microsoft Fabric, you can use a Dataflow (Gen2) to ingest data from a wide ra
     ![Screenshot of a new dataflow.](./Images/new-data-flow.png)
 
 1. At the top left of the dataflow page, select **Dataflow 1** to see its details and rename the dataflow to **Get Product Data**.
-1. In the dataflow designer, select **Import from a Text/CSV file**. Then complete the Get Data wizard to create a data connection by linking to `https://raw.githubusercontent.com/MicrosoftLearning/dp-data/main/products.csv` using anonymous authentication. When you have completed the wizard, a preview of the data will be shown in the dataflow designer like this:
+1. In the dataflow designer, select **Import from a Text/CSV file**. Then complete the Get Data wizard to create a data connection by linking to `https://raw.githubusercontent.com/CSFCloudLabs/Fabric-Cloud-Lab/refs/heads/main/Allfiles/Labs/03/products.csv` using anonymous authentication. When you have completed the wizard, a preview of the data will be shown in the dataflow designer like this:
 
     ![Screenshot of a dataflow query.](./Images/data-flow-query.png)
 
@@ -129,12 +127,7 @@ In this exercise you've only run a few activities, so it should be fairly easy t
 
     ![Screenshot of the monitoring hub with custom columns.](./Images/monitor-columns.png)
 
-## Clean up resources
+## Summary
 
 In this exercise, you have created a lakehouse, a dataflow, and a Spark notebook; and you've used the monitoring hub to view item activity.
 
-If you've finished exploring your lakehouse, you can delete the workspace you created for this exercise.
-
-1. In the bar on the left, select the icon for your workspace to view all of the items it contains.
-2. In the **...** menu on the toolbar, select **Workspace settings**.
-3. In the **General** section, select **Remove this workspace**.
