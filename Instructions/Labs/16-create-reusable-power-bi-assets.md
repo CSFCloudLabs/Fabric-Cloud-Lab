@@ -16,16 +16,17 @@ This exercise should take approximately **30** minutes to complete.
 
 Before you can start this exercise, you need to open a web browser and enter the following URL to download the zip folder:
 
-`https://github.com/MicrosoftLearning/mslearn-fabric/raw/refs/heads/main/Allfiles/Labs/16b/16-reusable-assets.zip`
+`https://github.com/CSFCloudLabs/Fabric-Cloud-Lab/raw/main/Allfiles/Labs/16/16-reusable-assets.zip`
 
-Extract the folder to the **C:\Users\Student\Downloads\16-reusable-assets** folder.
+
+Extract the folder.
 
 ## Publish a report to the Power BI service
 
 In this task, you use an existing report to create a shared semantic model for reuse to develop other reports.
 
 1. From a web browser, navigate and sign in to the Fabric service: [https://app.fabric.microsoft.com](https://app.fabric.microsoft.com)
-1. Navigate to the Power BI experience and create a new workspace with a unique name of your choice.
+1. Navigate to the Power BI experience, use your existing workspace and create a folder named Exercise 16.
 
     ![Screenshot of the Workspace pane highlighting the + New workspace button.](./Images/power-bi-new-workspace.png)
 
@@ -240,6 +241,6 @@ In this task, you'll publish your Power BI Project file and look at the related 
 
 > When semantic models relate to other semantic models, it's known as chaining. In this lab, the starter semantic model is chained to the newly created semantic model, enabling its reuse for a specialized purpose.
 
-## Clean up
+## Summary
 
-You've successfully completed this exercise. You created Power BI Project and Template files and specialized semantic models and reports. You can safely delete the workspace and all local assets.
+You've successfully completed this exercise. You created Power BI Project and Template files and specialized semantic models and reports. 
